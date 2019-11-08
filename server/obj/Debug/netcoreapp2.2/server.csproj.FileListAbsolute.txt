@@ -1,0 +1,14 @@
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\appSettings.json
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\server.deps.json
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\server.runtimeconfig.json
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\server.runtimeconfig.dev.json
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\server.dll
+C:\Users\bayvi\Source\Repos\ChatService\server\bin\Debug\netcoreapp2.2\server.pdb
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.csproj.AssemblyReference.cache
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.AssemblyInfoInputs.cache
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.AssemblyInfo.cs
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.csproj.CoreCompileInputs.cache
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.dll
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.pdb
+C:\Users\bayvi\Source\Repos\ChatService\server\obj\Debug\netcoreapp2.2\server.genruntimeconfig.cache

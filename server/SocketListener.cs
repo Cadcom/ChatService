@@ -22,10 +22,20 @@ namespace server
 
         }
        
-        private static bool LoadSettings()
+        private static bool LoadSettings(bool test)
         {
             try
             {
+                if (test)
+                {
+                    Settings = new AppSettings
+                    {
+                        Port = 5555,
+                        EndOfMessage = "<EOF>"
+                    };
+                    return true;
+                }
+
                 if (File.Exists(General.SettingsFile))
                 {
                     using (StreamReader r = new StreamReader(General.SettingsFile))
@@ -47,22 +57,9 @@ namespace server
 
         public static void StartListening(object test)
         {
-         
-            if (!LoadSettings())
-            {
-                if ((bool)test) {
-                    Settings = new AppSettings
-                    {
-                        Port = 5950,
-                        EndOfMessage = "<EOF>"
-                    };
-                }
-                else
-                {
-                    return;
-                }
-                    
-            }
+
+            if (!LoadSettings((bool)test)) return;
+            
             // Establish the local endpoint for the socket.  
             // The DNS name of the computer  
             // running the listener is "host.contoso.com".  
@@ -166,8 +163,7 @@ namespace server
                     {
                         // All the data has been read from the   
                         // client. Display it on the console.  
-                        Console.WriteLine("Client {0} : {1}",
-                            handler.RemoteEndPoint.ToString(), content.TrimEnd(Settings.EndOfMessage.ToCharArray()));
+                        Console.WriteLine($"Client {handler.RemoteEndPoint.ToString()} : {content.TrimEnd(Settings.EndOfMessage.ToCharArray())}");
                         // send the client the server reply.
                         ApplyAction(handler, state);
                         

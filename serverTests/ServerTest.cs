@@ -33,7 +33,7 @@ namespace serverTests
             Settings settings = new Settings
             {
                 Host = "bayans-imac.local",
-                Port = 5950,
+                Port = 5555,
                 EndOfMessage = "<EOF>",
                 NumberOfMessagesToBeSend = 0,
                 MilliSecondsBetweenMessagesTobeSend = 0
@@ -57,7 +57,7 @@ namespace serverTests
             Settings settings = new Settings
             {
                 Host = "bayans-imac.local",
-                Port = 5950,
+                Port = 5555,
                 EndOfMessage = "<EOF>",
                 NumberOfMessagesToBeSend = 1,
                 MilliSecondsBetweenMessagesTobeSend = 0
@@ -85,7 +85,7 @@ namespace serverTests
             Settings settings = new Settings
             {
                 Host = "bayans-imac.local",
-                Port = 5950,
+                Port = 5555,
                 EndOfMessage = "<EOF>",
                 NumberOfMessagesToBeSend = 3,
                 MilliSecondsBetweenMessagesTobeSend = 1
@@ -107,7 +107,7 @@ namespace serverTests
             Settings settings = new Settings
             {
                 Host = "bayans-imac.local",
-                Port = 5950,
+                Port = 5555,
                 EndOfMessage = "<EOF>",
                 NumberOfMessagesToBeSend = 3,
                 MilliSecondsBetweenMessagesTobeSend = 1001
